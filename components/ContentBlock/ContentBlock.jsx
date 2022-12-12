@@ -13,11 +13,11 @@ export default function CustomBlock() {
         <ul>
           <li>
             Master of Science in Biomedical Engineering at Columbia University
-            23'
+            23&apos;
           </li>
           <li>
             Bachelors of Engineering in Biomedical Engineering at Anna
-            University 22'
+            University 22&apos;
           </li>
         </ul>
       </Section>
