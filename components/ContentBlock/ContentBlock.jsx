@@ -68,9 +68,18 @@ export default function CustomBlock() {
             </li>
           </ul>
 
-          <video controls style={{ maxWidth: "500px", marginTop: "20px" }}>
-            <source src="https://drive.google.com/uc?id=1HS4U9fkGt50B69iTpLp5Q4nnq8Gx4HxV" />
-          </video>
+          <button className={styles.button}>
+            <a
+              href="https://drive.google.com/file/d/1HS4U9fkGt50B69iTpLp5Q4nnq8Gx4HxV/view"
+              target="_blank"
+            >
+              <b>Watch Video</b>
+            </a>
+          </button>
+
+          {/* <video controls style={{ maxWidth: "500px", marginTop: "20px" }}>
+            <source src="https://drive.google.com/uc?export=download&id=1HS4U9fkGt50B69iTpLp5Q4nnq8Gx4HxV" />
+          </video> */}
         </>
       </Section>
     </div>

@@ -18,6 +18,7 @@ a {
 
 :root {
   --primary: #f4a58e;
+  --primary-hover: #f99678;
   --primary-dark: #ff6e42;
   --secondary: #f6d4ca;
 }

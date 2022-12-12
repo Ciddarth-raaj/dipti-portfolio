@@ -14,3 +14,18 @@
     bottom: 0;
     border-bottom: 3px solid var(--primary-dark);
 }
+
+.button {
+    padding: 10px 20px;
+    background-color: var(--primary);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background-color: var(--primary-hover);
+}
