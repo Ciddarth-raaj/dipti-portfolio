@@ -8,8 +8,18 @@ import Image from "next/image";
 export default function CustomBlock() {
   return (
     <div>
-      <Section title={"About Me"}>
-        <p>{ABOUT_ME}</p>
+      <Section title={"Education"}>
+        {/* <p>{ABOUT_ME}</p> */}
+        <ul>
+          <li>
+            Master of Science in Biomedical Engineering at Columbia University
+            23'
+          </li>
+          <li>
+            Bachelors of Engineering in Biomedical Engineering at Anna
+            University 22'
+          </li>
+        </ul>
       </Section>
 
       <Section title={"Projects"}>
