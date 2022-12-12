@@ -17,7 +17,12 @@ a {
 }
 
 :root {
-  --primary: #fdc8dd;
-  --primary-dark: #ff2d81;
-  --secondary: #fff2f7;
+  --primary: #f4a58e;
+  --primary-dark: #ff6e42;
+  --secondary: #f6d4ca;
+}
+
+li {
+  margin-left: 20px;
+  margin-bottom: 5px;
 }
