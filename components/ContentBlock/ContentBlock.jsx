@@ -3,6 +3,7 @@ import styles from "./ContentBlock.module.css";
 import Section from "./Section";
 
 import { ABOUT_ME } from "../../constants/content";
+import Image from "next/image";
 
 export default function CustomBlock() {
   return (
@@ -78,9 +79,15 @@ export default function CustomBlock() {
             </a>
           </button>
 
-          {/* <video controls style={{ maxWidth: "500px", marginTop: "20px" }}>
-            <source src="https://drive.google.com/uc?export=download&id=1HS4U9fkGt50B69iTpLp5Q4nnq8Gx4HxV" />
-          </video> */}
+          <br></br>
+
+          <Image
+            src="/screenshot.png"
+            alt="Picture of the author"
+            width={500}
+            height={380}
+            style={{ marginTop: "20px", objectFit: "contain" }}
+          />
         </>
       </Section>
     </div>
