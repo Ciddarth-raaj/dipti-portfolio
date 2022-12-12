@@ -72,6 +72,7 @@ export default function CustomBlock() {
             <a
               href="https://drive.google.com/file/d/1HS4U9fkGt50B69iTpLp5Q4nnq8Gx4HxV/view"
               target="_blank"
+              rel="noreferrer"
             >
               <b>Watch Video</b>
             </a>
