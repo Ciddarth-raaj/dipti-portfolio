@@ -32,3 +32,14 @@
   height: 3px;
   background-color: var(--primary-dark);
 }
+
+@media only screen and (max-width: 600px) {
+  .mainWrapper {
+    flex-direction: column;
+  }
+
+  .leftBlock {
+    height: 150px;
+    width: 100vw;
+  }
+}

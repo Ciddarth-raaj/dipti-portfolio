@@ -68,7 +68,7 @@ export default function CustomBlock() {
             </li>
           </ul>
 
-          <video controls style={{ width: "500px", marginTop: "20px" }}>
+          <video controls style={{ maxWidth: "500px", marginTop: "20px" }}>
             <source src="https://drive.google.com/uc?id=1HS4U9fkGt50B69iTpLp5Q4nnq8Gx4HxV" />
           </video>
         </>
