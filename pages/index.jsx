@@ -1,3 +1,4 @@
+import ContentBlock from "../components/ContentBlock/ContentBlock";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -8,7 +9,9 @@ export default function Home() {
         <div className={styles.line} />
       </div>
 
-      <div className={styles.rightBlock}></div>
+      <div className={styles.rightBlock}>
+        <ContentBlock />
+      </div>
     </div>
   );
 }
