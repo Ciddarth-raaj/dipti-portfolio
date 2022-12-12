@@ -62,8 +62,8 @@ export default function CustomBlock() {
                 <b>Video Call</b>
               </p>
               <p>
-                Now it's time to cook. Enjoy the calls within the app and begin
-                your shared experience!
+                Now it&apos;s time to cook. Enjoy the calls within the app and
+                begin your shared experience!
               </p>
             </li>
           </ul>
