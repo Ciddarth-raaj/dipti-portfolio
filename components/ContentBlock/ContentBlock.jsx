@@ -51,7 +51,7 @@ export default function CustomBlock() {
                 <b>Ordering Ingredients</b>
               </p>
               <p>
-                The service will deliver the exact ingredients of child's
+                The service will deliver the exact ingredients of child&apos;s
                 favorite meal to their door steps after just a click of a
                 button.
               </p>
